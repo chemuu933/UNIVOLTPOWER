@@ -7,4 +7,10 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.cjs',
   },
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./src/test/setup.ts'],
+    globals: true,
+    include: ['**/*.{test,spec}.{js,ts,jsx,tsx}'],
+  },
 })

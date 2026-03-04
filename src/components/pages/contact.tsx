@@ -52,7 +52,7 @@ export function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder="John Doe"
+                    placeholder="June kibet"
                   />
                 </div>
                 <div>
@@ -64,7 +64,7 @@ export function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="john@example.com"
+                    placeholder="june@example.com"
                   />
                 </div>
               </div>
@@ -122,8 +122,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="mb-1">Phone</h3>
-                  <p className="text-sm text-slate-600">+1 (555) 123-4567</p>
-                  <p className="text-sm text-slate-600">Toll Free: 1-800-UNIVOLT</p>
+                  <p className="text-sm text-slate-600">+254726809344</p>
+                  <p className="text-sm text-slate-600">+254726809344</p>
                 </div>
               </div>
             </Card>
@@ -149,9 +149,7 @@ export function Contact() {
                 <div>
                   <h3 className="mb-1">Office</h3>
                   <p className="text-sm text-slate-600">
-                    123 Solar Street<br />
-                    San Francisco, CA 94102<br />
-                    United States
+                  Nairobi, Kenya
                   </p>
                 </div>
               </div>
@@ -165,8 +163,8 @@ export function Contact() {
                 <div>
                   <h3 className="mb-1">Business Hours</h3>
                   <p className="text-sm text-slate-600">
-                    Monday - Friday: 8:00 AM - 6:00 PM<br />
-                    Saturday: 9:00 AM - 4:00 PM<br />
+                    Monday - Friday: 9:00 AM - 6:00 PM<br />
+                    Saturday:Closed<br />
                     Sunday: Closed
                   </p>
                 </div>
@@ -179,7 +177,7 @@ export function Contact() {
                 For urgent technical issues with your solar system, our 24/7 emergency support line is available.
               </p>
               <p className="text-sm">
-                <strong>Emergency: 1-800-UNIVOLT</strong>
+                <strong>+25470102715167</strong>
               </p>
             </Card>
           </div>

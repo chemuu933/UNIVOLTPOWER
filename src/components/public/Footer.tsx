@@ -49,7 +49,7 @@ export function Footer() {
             <div className="flex flex-col gap-3 text-sm text-slate-400">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254726809344</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
@@ -57,7 +57,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>123 Solar Street, CA 94102</span>
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
           </div>

@@ -21,14 +21,14 @@ export function Header() {
             <Link to="/" className="hover:text-amber-600 transition-colors">
               Home
             </Link>
-            <Link to="/products" className="hover:text-amber-600 transition-colors">
-              Products
+            <Link to="/about" className="hover:text-amber-600 transition-colors">
+              About
             </Link>
             <Link to="/services" className="hover:text-amber-600 transition-colors">
               Services
             </Link>
-            <Link to="/about" className="hover:text-amber-600 transition-colors">
-              About
+            <Link to="/products" className="hover:text-amber-600 transition-colors">
+              Products
             </Link>
             <Link to="/contact" className="hover:text-amber-600 transition-colors">
               Contact
@@ -71,11 +71,11 @@ export function Header() {
                 Home
               </Link>
               <Link
-                to="/products"
+                to="/about"
                 className="hover:text-amber-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Products
+                About
               </Link>
               <Link
                 to="/services"
@@ -85,11 +85,11 @@ export function Header() {
                 Services
               </Link>
               <Link
-                to="/about"
+                to="/products"
                 className="hover:text-amber-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                About
+                Products
               </Link>
               <Link
                 to="/contact"

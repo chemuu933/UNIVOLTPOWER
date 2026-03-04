@@ -22,10 +22,10 @@ export function Home() {
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
             <h1 className="text-5xl md:text-6xl mb-6">
-              Power Your Future with Solar Energy
+              Powering Homes, Businesses & Farms with Reliable Solar Energy in Kenya
             </h1>
             <p className="text-xl mb-8 text-slate-200">
-              Complete EPC solutions for residential, commercial, and utility-scale solar projects. Quality products, expert installation, ongoing support.
+              Cut Electricity Bills. Eliminate Blackouts. Stop Diesel Costs. Own Your Power We design, engineer, install, and maintain reliable solar energy systems that reduce operating costs, increase energy independence, and guarantee long-term performance.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-amber-500 hover:bg-amber-600">
